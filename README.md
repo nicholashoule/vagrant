@@ -12,3 +12,10 @@ Requires:
 vagrant init centos/7
 vagrant up
 ```
+
+```
+vagrant status
+vagrant ssh leap42
+vagrant provision
+vagrant halt
+```
