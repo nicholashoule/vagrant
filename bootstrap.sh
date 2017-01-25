@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # bootstrap file for configuring system
-printf "%s\n" "[BOOTSTRAP]: running"
+# printf "%s\n" "[BOOTSTRAP]: running"
 
 # Update system 
 # sudo zypper update -y
