@@ -1,5 +1,6 @@
 # This is an example file and can be modified as needed
 # These should never go into a git repo
+# https://www.atlassian.com/git/tutorials/gitignore
 # OS junk files
 [Tt]humbs.db
 *.DS_Store
