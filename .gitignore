@@ -1,35 +1,74 @@
 # This is an example file and can be modified as needed
 # These should never go into a git repo
 # https://www.atlassian.com/git/tutorials/gitignore
-# OS junk files
+# OS-specific
+.DS_Store
 [Tt]humbs.db
-*.DS_Store
+
+# Editor swapfiles
+.*.sw?
+*~
+
 # Project files
 bin
 out
 target
 [Bb]uild/
-*.class
 /dist
 /pkg
+vendor
+junit
+logs
+
 # Subversion files
 .svn
+
 # Puppet files
 modules
 /spec/fixtures
 /spec/rp_env
 !/spec/hieradata/default.yaml
 !/spec/fixtures/site.pp
-# Other files
-.*.sw?
-.yardoc
-*.tmp
-*.log
-*.lock
-/.rspec_system
+
+# Vagrant stuff
+acceptance_config.yml
+boxes/*
 /.vagrant
-/.bundle
+/website/.vagrant
+/website/build
+/vagrant-spec.config.rb
+
+# Bundler/Rubygems
+*.gem
+.bundle
+pkg/*
+tags
 /Gemfile.lock
-vendor
-junit
-logs
+test/tmp/
+vendor/
+/exec
+/.rspec_system
+
+# Documentation
+_site/*
+.yardoc/
+doc/
+
+# Python
+*.pyc
+
+# Rubinius
+*.rbc
+
+# IDE junk
+.idea/*
+*.iml
+.project
+*.class
+
+# Ruby Managers
+.rbenv
+.rbenv-gemsets
+.ruby-gemset
+.ruby-version
+.rvmrc
