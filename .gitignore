@@ -1,11 +1,15 @@
+# This is an example file and can be modified as needed
 # These should never go into a git repo
 # OS junk files
 [Tt]humbs.db
 *.DS_Store
 # Project files
+bin
+out
+target
 [Bb]uild/
 *.class
-dist
+/dist
 /pkg
 # Subversion files
 .svn
@@ -18,10 +22,13 @@ modules
 # Other files
 .*.sw?
 .yardoc
+*.tmp
+*.log
+*.lock
 /.rspec_system
 /.vagrant
 /.bundle
 /Gemfile.lock
-/vendor
-/junit
-/log
+vendor
+junit
+logs
