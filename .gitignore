@@ -1,0 +1,26 @@
+# These should never go into a git repo
+# OS junk files
+[Tt]humbs.db
+*.DS_Store
+# Project files
+[Bb]uild/
+# Subversion files
+.svn
+# Puppet files
+modules
+# Other files
+.*.sw?
+.yardoc
+dist
+/pkg
+/spec/fixtures
+/spec/rp_env
+!/spec/hieradata/default.yaml
+!/spec/fixtures/site.pp
+/.rspec_system
+/.vagrant
+/.bundle
+/Gemfile.lock
+/vendor
+/junit
+/log
